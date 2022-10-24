@@ -1,0 +1,5 @@
+要注意的地方:
+1. 安裝 cuda cudnn zilb 在安裝 tensorflow
+2. 因為 efficientnet 已經有 rescale，所以 imagedatagenerator 就不需要 rescale。
+3. create_model的權重有問題，但是 retrain後model就能正常使用，原因不詳。
+4. save weight 的權重有問題，github上有相同的問題被提出但是沒有獲得解決

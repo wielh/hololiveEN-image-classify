@@ -1,0 +1,4 @@
+tensorflow==2.7.0
+tf2onnx==1.27.0
+matplotlib==3.35.3
+onnxruntime==1.12.1
