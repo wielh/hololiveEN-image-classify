@@ -1,7 +1,5 @@
-import keras
 import config
 import onnx,tf2onnx
-from keras import backend as K
 
 from keras.models import load_model
 from keras.layers import Dense,BatchNormalization,Dropout
